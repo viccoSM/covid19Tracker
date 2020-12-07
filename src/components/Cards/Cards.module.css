@@ -1,0 +1,28 @@
+.column {
+    float:left;
+    padding: 0 10px;
+}
+
+.row {margin: 0 -5px; text-align: center;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.positif {
+    background-color: yellow;
+}
+
+.meninggal {
+    background-color: red;
+}
+
+.sembuh {
+    background-color: green;
+}
